@@ -1,0 +1,22 @@
+/* Custom Swiper Pagination */
+.mySwiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc; /* Default bullet color */
+    opacity: 0.8;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 50%; /* Make bullets circular */
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    width: 16px;
+    height: 16px;
+    background-color: #3583bf; /* Active bullet color */
+    transform: scale(1.2); /* Scale up active bullet */
+    opacity: 1;
+}
+
+.mySwiper .swiper-pagination-bullet:hover {
+    background-color: #3583bf; /* Hover effect for pagination bullets */
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
