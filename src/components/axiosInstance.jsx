@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: process.env.NEXT_PUBLIC_API_BASE_URL, // Default base URL
+    baseURL: 'https://web-production-a916.up.railway.app', // Default base URL
     // timeout: 10000, // Optional: Set a timeout for requests
     headers: {
         'Content-Type': 'application/json',
